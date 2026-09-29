@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="hi"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Padhai Saathi</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<header class="nav"><div class="w"><a class="logo" href="#home"><i>📖</i>Padhai Saathi</a>
+<nav class="links" id="nav"><a href="#home">Home</a><a href="#dash">Dashboard</a><a href="#res">Resources</a><a href="#live">Live Classes</a><a href="#needs">School Needs</a><a href="#impact">Impact</a></nav></div></header>
+<main class="w">
+
+<!-- HOME -->
+<div class="pg" id="home">
+<div class="hero"><div><span class="pill">Sarkari school ke bachon ke liye</span>
+<h1>Every Student Deserves a <span>Chance to Grow.</span></h1>
+<p>Free resources, mentors aur school-facility support ek jagah. Taaki suvidha ki kami kisi ke sapne na roke.</p>
+<a class="btn" href="#dash">Get Started</a> <a class="btn o" href="#needs">School Needs dekho</a></div>
+<svg class="art" viewBox="0 0 440 320" role="img" aria-label="School aur kitab ka chitra"><circle cx="220" cy="160" r="140" fill="var(--b2)"/><circle cx="356" cy="56" r="26" fill="var(--y)" class="fl"/><rect x="90" y="140" width="260" height="130" rx="14" fill="var(--card)" stroke="var(--b)" stroke-width="4"/><polygon points="80,142 220,72 360,142" fill="var(--b)"/><rect x="200" y="205" width="40" height="65" rx="8" fill="var(--g)"/><g fill="var(--b2)" stroke="var(--b)" stroke-width="3"><rect x="112" y="168" width="46" height="36" rx="6"/><rect x="282" y="168" width="46" height="36" rx="6"/></g><line x1="220" y1="72" x2="220" y2="42" stroke="var(--ink)" stroke-width="3"/><polygon points="220,42 250,52 220,62" fill="var(--g)"/><g class="fl"><rect x="292" y="216" width="86" height="58" rx="8" fill="#fff" stroke="var(--g)" stroke-width="4"/><path d="M335 216v58M302 234h24M302 246h24M344 234h24M344 246h24" stroke="var(--g)" stroke-width="3" stroke-linecap="round"/></g></svg></div>
+<div class="problem"><h2>Asli problem kya hai?</h2><p class="sub" style="margin-bottom:0;color:var(--ink)">Kai sarkari schools me bachhe mehnat karte hain, par saadhan kam hain:</p>
+<ul><li>Shikshak kam, ya ek teacher par kai classes.</li><li>Computer, internet, library aur lab ki kami.</li><li>Career guidance aur mentor tak pahunch nahi.</li></ul></div>
+<h2>How We Help</h2><p class="sub">Teen tareeke se madad.</p>
+<div class="grid"><div class="card hv"><div class="ic">📚</div><h3>Seekho</h3><p class="note">Free courses, notes aur video ek jagah.</p></div><div class="card hv"><div class="ic">🧑‍🏫</div><h3>Live class</h3><p class="note">Hamari team class-wise, subject-wise 1-2 ghante online padhati hai.</p></div><div class="card hv"><div class="ic">🏫</div><h3>School ki zaroorat</h3><p class="note">School kami likhe, donors aur NGOs madad karein.</p></div></div>
+<h2 class="sec">Class 1 se 12: problem aur hamari madad</h2><p class="sub">Apni class chuno.</p><div class="chips" id="pc"></div><div class="two" id="pcard"></div>
+<h2 class="sec">Impact</h2><div class="grid" id="hStats"></div>
+<h2 class="sec">Kahaniyan <span class="tag">Sample</span></h2><div class="grid" id="stories"></div>
+<p style="text-align:center;margin-top:28px"><a class="btn" href="#dash">Get Started</a></p></div>
+
+<!-- DASHBOARD -->
+<div class="pg" id="dash"><h2>Student Dashboard</h2><p class="sub">Aapka seekhne ka ghar.</p>
+<div class="card"><div class="row" style="justify-content:space-between"><h3>Progress tracker</h3><b id="pp">0%</b></div><div class="bar"><i id="pb"></i></div>
+<div id="goals"></div><div class="row" style="margin-top:10px"><input id="gIn" placeholder="Naya goal, jaise: Python basics" aria-label="Naya goal" style="flex:1 1 200px;width:auto"><button class="btn s" id="gAdd">Jodo</button></div></div>
+<h2 class="sec">Quick access</h2><div class="grid" id="tiles"></div>
+<h2 class="sec">Skills / Achievements</h2><div class="grid" id="badges"></div></div>
+
+<!-- RESOURCES -->
+<div class="pg" id="res"><h2>Resources</h2><p class="sub">Free aur sarkari/open platforms. Link na khule to site par search karo.</p><div class="chips" id="rc"></div><div class="grid" id="rl"></div></div>
+
+<!-- LIVE -->
+<div class="pg" id="live"><h2>Live Online Classes</h2><p class="sub">Hamari team ke teachers class-wise aur subject-wise 1 se 2 ghante padhate hain. Free. <span class="tag">Sample schedule</span></p>
+<div class="chips" id="lc"></div><div class="chips" id="ls"></div><div class="grid" id="ll"></div>
+<div class="card" id="lf" style="display:none;margin-top:16px"><h3 id="lt"></h3><label class="l" for="ln">Bachhe ka naam</label><input id="ln"><div style="margin-top:12px"><button class="btn" id="lgo">Seat book karo</button></div></div>
+<p class="note" style="margin-top:12px">Class ka joining link class se pehle bataya jayega. Abhi ye demo hai.</p>
+<h2 class="sec">Meri classes</h2><div id="lreq" class="grid"></div></div>
+
+<!-- NEEDS -->
+<div class="pg" id="needs"><h2>School Needs</h2><p class="sub">School apni zaroorat likhe. Volunteers, NGOs aur donors dekhkar madad karein.</p>
+<div class="two"><div class="card"><h3>Zaroorat raise karo</h3><label class="l" for="nS">School aur jagah</label><input id="nS"><label class="l" for="nC">Category</label><select id="nC"></select><label class="l" for="nI">Kya chahiye?</label><input id="nI" placeholder="Jaise: 10 laptops"><label class="l" for="nU">Kitni zaroori?</label><select id="nU"><option>Zaroori</option><option>Bahut zaroori</option><option>Kam zaroori</option></select><div style="margin-top:12px"><button class="btn" id="nA">Raise karo</button></div></div>
+<div><div class="chips" id="nf"></div><div id="nl" style="display:grid;gap:12px"></div><p class="note">Ye demo hai: requests sirf isi device me save hoti hain. Sabko dikhane ke liye server chahiye.</p></div></div></div>
+
+<!-- IMPACT -->
+<div class="pg" id="impact"><h2>Our Impact</h2><p class="sub">Hamari ab tak ki yatra. <span class="tag">Example numbers</span></p><div class="grid" id="iStats"></div>
+<h2 class="sec">School Needs live</h2><div class="grid" id="iLive"></div></div>
+</main>
+<footer>Student project. Stats, stories aur teachers sample hain; asli data se badalna.</footer>
+
+<script src="script.js"></script></body></html>
